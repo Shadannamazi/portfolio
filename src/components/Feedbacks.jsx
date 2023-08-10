@@ -5,7 +5,8 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
-import { demo } from "../assets";
+import { demo } from "../assets/";
+
 
 const FeedbackCard = ({
   index,
@@ -54,24 +55,34 @@ const Feedbacks = () => {
 <motion.div
   variants={fadeIn("", "", 0.1, 1)}
   className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-  style={{ display: "flex", alignItems: "flex-start" }}
+  //style={{ display: "flex", alignItems: "flex-start" }}
 >
-  <div style={{ flex: '2', paddingRight: '25px' }}>
-    <p>
+  <div >
+    <p style={{ flex: '2', paddingBottom: '25px' }}>
       ArtVision AI is an innovative iOS application that seamlessly merges cutting-edge technology 
       and artistic expression. Developed using SwiftUI and Xcode, this app empowers users to create 
       stunning AI-generated artworks through an intuitive and interactive interface. With a robust 
       blend of machine learning, sophisticated image generation APIs, and user-centric design, 
       ArtVision AI sets the stage for users to embark on a creative journey like never before.
     </p>
+    <iframe
+  width="100%"
+  height="500"
+  src="https://www.youtube.com/embed/lVkmVuDZ4DA"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
   </div>
   
-  <div style={{ flexShrink: 0 }}>
+  {/* <div style={{ flexShrink: 0 }}>
+
     <video width="250" height="155" controls>
       <source src="src/assets/demo.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
-  </div>
+  </div> */}
 </motion.div>
 
 
