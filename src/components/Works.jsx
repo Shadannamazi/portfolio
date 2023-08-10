@@ -16,7 +16,7 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
           scale: 1,
           speed: 450,
         }}
-        style={{ height: "485px" }} // Set a fixed height here
+        style={{ height: "500px" }} // Set a fixed height here
         className="bg-gray-700 p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">

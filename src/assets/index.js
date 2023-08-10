@@ -20,6 +20,9 @@ import creatML from "./tech/createML.png";
 
 
 import demo from "./demo.mp4";
+
+import linkedin from "./linkedin.png";
+import email from "./email.png";
 //import docker from "./tech/docker.png";
 //import figma from "./tech/figma.png";
 
@@ -43,12 +46,15 @@ import knn from "./knn.png";
 import maze from "./maze.png";
 import imageproc from "./imageproc.png";
 
+
 // import carrent from "./carrent.png";
 // import jobit from "./jobit.png";
 // import tripguide from "./tripguide.png";
 
 export {
   demo,
+  email,
+  linkedin,
   rivian,
   tutor,
   artvision,

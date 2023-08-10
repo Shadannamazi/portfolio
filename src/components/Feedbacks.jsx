@@ -74,6 +74,7 @@ const Feedbacks = () => {
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen
 ></iframe>
+    
   </div>
   
   {/* <div style={{ flexShrink: 0 }}>

@@ -13,6 +13,10 @@
   color-scheme: dark;
 }
 
+body::-webkit-scrollbar{
+  display: none;
+}
+
 .text-secondary {
   --tw-text-opacity: 1;
   color: rgb(215 215 215 / var(--tw-text-opacity));

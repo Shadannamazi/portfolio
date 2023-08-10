@@ -6,6 +6,9 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { github } from "../assets";
+import { email } from "../assets";
+import { linkedin } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -70,6 +73,7 @@ const Contact = () => {
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
+
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-gray-700 p-8 rounded-2xl'
@@ -80,8 +84,34 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'
+          className='mt-0 flex flex-col gap-8'
         >
+          <div className='flex flex-row gap-20 px-5'>
+          <a href="mailto:namazifardshadan@gmail.com">
+            <img
+              src={email}
+              alt="Email"
+              className='w-40 h-40 object-contain'
+            />
+          </a>
+          <a href="https://github.com/Shadannamazi">
+            <img
+              src={github}
+              alt="GitHub"
+              className='w-40 h-40 object-contain'
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/shadan-namazifard-b2a875227">
+            <img
+              src={linkedin}
+              alt="LinkedIn"
+              className='w-40 h-40 object-contain'
+            />
+          </a>
+        </div>
+
+          
+          
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
             <input
@@ -124,12 +154,13 @@ const Contact = () => {
           </button>
         </form>
       </motion.div>
-
+      
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
         <EarthCanvas />
+        
       </motion.div>
     </div>
   );
