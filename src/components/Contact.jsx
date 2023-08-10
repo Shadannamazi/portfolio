@@ -86,29 +86,32 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className='mt-0 flex flex-col gap-8'
         >
-          <div className='flex flex-row gap-20 px-5'>
-          <a href="mailto:namazifardshadan@gmail.com">
-            <img
-              src={email}
-              alt="Email"
-              className='w-40 h-40 object-contain'
-            />
-          </a>
-          <a href="https://github.com/Shadannamazi">
-            <img
-              src={github}
-              alt="GitHub"
-              className='w-40 h-40 object-contain'
-            />
-          </a>
-          <a href="https://www.linkedin.com/in/shadan-namazifard-b2a875227">
-            <img
-              src={linkedin}
-              alt="LinkedIn"
-              className='w-40 h-40 object-contain'
-            />
-          </a>
-        </div>
+          <div className='flex justify-center'>
+  <div className='flex flex-row gap-20 px-5'>
+    <a href="mailto:namazifardshadan@gmail.com">
+      <img
+        src={email}
+        alt="Email"
+        className='w-40 h-40 object-contain'
+      />
+    </a>
+    <a href="https://github.com/Shadannamazi">
+      <img
+        src={github}
+        alt="GitHub"
+        className='w-40 h-40 object-contain'
+      />
+    </a>
+    <a href="https://www.linkedin.com/in/shadan-namazifard-b2a875227">
+      <img
+        src={linkedin}
+        alt="LinkedIn"
+        className='w-40 h-40 object-contain'
+      />
+    </a>
+  </div>
+</div>
+
 
           
           
