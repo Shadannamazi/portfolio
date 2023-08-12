@@ -64,6 +64,7 @@ const Feedbacks = () => {
       stunning AI-generated artworks through an intuitive and interactive interface. With a robust 
       blend of machine learning, sophisticated image generation APIs, and user-centric design, 
       ArtVision AI sets the stage for users to embark on a creative journey like never before.
+      <a href="https://github.com/Shadannamazi/ArtVision-AI" style={{ fontWeight: 'bold', color: '#A9EFEE' }}> Check it out on Github!</a> 
     </p>
     <iframe
   width="100%"

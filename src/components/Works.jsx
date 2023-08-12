@@ -9,15 +9,15 @@ import { github } from "../assets";
 
 const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
   return (
-    <div className="relative w-full sm:w-[360px] mb-7">
+    <div className="w-full sm:w-[360px] mb-7">
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        style={{ height: "500px" }} // Set a fixed height here
-        className="bg-gray-700 p-5 rounded-2xl sm:w-[360px] w-full"
+        style={{ height: "auto" }} // Adjust the height to auto for mobile responsiveness
+        className="bg-gray-700 p-5 rounded-2xl w-full"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -25,17 +25,12 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
             alt="project_image"
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex justify-end m-3 ">
+          <div className="absolute inset-0 flex justify-end m-3">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img src={github}/>
-              {/* <img
-                src={github}
-                alt="source code"
-                className="w-1/2 h-1/2 object-contain"
-              /> */}
+              <img src={github} alt="GitHub" />
             </div>
           </div>
         </div>
@@ -73,7 +68,7 @@ const Works = () => {
           variants={textVariant()}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          {/* Your introduction text */}
+          {/* Your text content here */}
         </motion.p>
       </div>
 
