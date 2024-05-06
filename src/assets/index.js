@@ -36,6 +36,7 @@ import email from "./email.png";
 
 
 
+import apple from "./company/apple.png";
 import rivian from "./company/rivian.png";
 import tutor from "./company/tutor.png";
 
@@ -86,6 +87,7 @@ export {
    tailwind,
    typescript,
    knn,
+   apple
   // threejs,
   
 };

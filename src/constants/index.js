@@ -32,7 +32,7 @@ import {
     knn,
     maze,
     imageproc,
-    
+    apple,
   } from "../assets";
   
   
@@ -131,17 +131,31 @@ import {
   
   const experiences = [
     {
+      title: "Software Engineer Intern",
+      company_name: "Apple",
+      icon: apple,
+      iconBg: "#FFFFFF",
+      date: "May 2024 - August 2024",
+      points: [
+        "I'm going to be interning at Apple as a Software Engineer Intern on the Video Apps Engineering team in Cupertino, CA."
+        // "Collaborated with a cross-functional team to design and develop Rivian's mobile applications, contributing to the creation of cutting-edge software solutions.",
+        // "Implemented sample and demo applications, showcasing the capabilities of Rivian's technology and enhancing the overall user experience.",
+        // "Ensured the quality and performance of applications through rigorous testing, troubleshooting, and resolving identified issues to meet specifications.",
+        // "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
       title: "Software Engineer Intern - iOS Developer",
       company_name: "Rivian",
       icon: rivian,
       iconBg: "#383E56",
       date: "Sept 2023 - April 2024",
       points: [
-        "I'm going to be interning at Rivian, as an iOS Developer under the Mobile Development team."
-        // "Collaborated with a cross-functional team to design and develop Rivian's mobile applications, contributing to the creation of cutting-edge software solutions.",
-        // "Implemented sample and demo applications, showcasing the capabilities of Rivian's technology and enhancing the overall user experience.",
-        // "Ensured the quality and performance of applications through rigorous testing, troubleshooting, and resolving identified issues to meet specifications.",
-        // "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked on Rivian’s mobile app, driving the implementation of new features and seamless vehicle integration",
+        "Gained knowledge of iOS development, architecture, and best practices",
+        "Improved product quality through code reviews, writing effective unit tests and collaborating with QA on implementing automation testing with Appium",
+        "Gained strong proficiency in the Combine framework",
+        "Actively engaged in all Agile/Scrum processes, encompassing sprint planning, daily scrums and sprint reviews"
       ],
     },
     {
@@ -152,37 +166,11 @@ import {
       date: "Sept 2022 - Aug 2023",
       points: [
         "Tutor for university-level Mathematics courses.",
-        "Developed customized lesson plans to meet the individual needs of each student",
-        "Experience working with students of various skill levels and abilities",
+        "Developed customized lesson plans to meet the individual needs of each student.",
+        "Experience working with students of various skill levels and abilities.",
 
       ],
     },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
   ];
   
   const testimonials = [
